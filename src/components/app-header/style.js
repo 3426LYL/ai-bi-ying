@@ -1,10 +1,11 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const AppHeaderWrapper = styled.div`
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255,255,255,0);
   transition: all 200ms ease;
+
   &.notTop {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255,255,255,1);
   }
 
   &.notsearch {
@@ -31,7 +32,7 @@ export const AppHeaderWrapper = styled.div`
     height: 1px;
     background-color: #eee;
   }
-`;
+`
 
 export const TopWrapper = styled.div`
   display: flex;
@@ -39,9 +40,9 @@ export const TopWrapper = styled.div`
   align-items: center;
   height: 80px;
   padding: 0 24px;
-  color: ${(props) => props.theme.color};
-`;
+  color: ${props => props.theme.color};
+`
 
 export const HeaderLeft = styled.div`
   flex: 1;
-`;
+`
